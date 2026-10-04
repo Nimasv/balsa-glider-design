@@ -1,0 +1,139 @@
+﻿Part,Material,Group,Mass_g,CG_X_mm,CG_Y_mm,CG_Z_mm,Basis,Notes
+W_R_Dskin_top,balsa,wing,6.934,249.91842965615598,408.4379163978062,63.633047495528636,density_assumption,1 mm balsa formed skin; chordwise width varies; grain spanwise
+W_R_Cap_top,dense_balsa,wing,11.22,265.2744354697086,425.0001325766573,63.79234451949253,density_assumption,20 mm wide x 3 mm nominal; dense straight-grain balsa; spanwise grain
+W_R_Dskin_bottom,balsa,wing,6.935,249.5208169986033,408.3756880238451,52.256585449358305,density_assumption,1 mm balsa formed skin; chordwise width varies; grain spanwise
+W_R_Cap_bottom,dense_balsa,wing,11.22,264.96993667322346,424.9999915341728,55.072512771975084,density_assumption,20 mm wide x 3 mm nominal; dense straight-grain balsa; spanwise grain
+W_R_Web_front,balsa,wing,1.164,256.5280167413092,378.45551440011826,56.25571921939076,density_assumption,1.5 mm shear web; grain through depth; fit between spar caps
+W_R_Web_rear,balsa,wing,1.123,275.05012699900726,377.09005155411893,56.00134763458706,density_assumption,1.5 mm shear web; grain through depth; fit between spar caps
+W_R_Leading_Edge,dense_balsa,wing,3.05,222.43051600847747,415.7792368073339,56.678876493134645,density_assumption,Carve/sand a 4 mm chordwise leading-edge blank to templates
+W_R_Trailing_Edge,dense_balsa,wing,2.862,361.1579101869614,387.43925120630854,50.2162813794511,density_assumption,Sand tapered trailing strip; retain 0.3 mm practical edge and fair covering
+W_R_Root_Sheet_top,balsa,wing,0.728,326.44518675609663,24.997168631347844,33.64131211478795,density_assumption,1 mm root sheeting; supports wing attachment area
+W_R_Root_Sheet_bottom,balsa,wing,0.73,326.18427051315706,24.95966886859183,24.65522042182075,density_assumption,1 mm root sheeting; supports wing attachment area
+W_L_Dskin_top,balsa,wing,6.934,249.91842980221995,-408.4379283884921,63.63304830350892,density_assumption,1 mm balsa formed skin; chordwise width varies; grain spanwise
+W_L_Cap_top,dense_balsa,wing,11.22,265.2744354697086,-425.0001325766573,63.79234451949253,density_assumption,20 mm wide x 3 mm nominal; dense straight-grain balsa; spanwise grain
+W_L_Dskin_bottom,balsa,wing,6.935,249.5208169894757,-408.3756872096525,52.25658536925833,density_assumption,1 mm balsa formed skin; chordwise width varies; grain spanwise
+W_L_Cap_bottom,dense_balsa,wing,11.22,264.96993667322346,-424.9999915341728,55.072512771975084,density_assumption,20 mm wide x 3 mm nominal; dense straight-grain balsa; spanwise grain
+W_L_Web_front,balsa,wing,1.164,256.5280167413092,-378.45551440011826,56.25571921939076,density_assumption,1.5 mm shear web; grain through depth; fit between spar caps
+W_L_Web_rear,balsa,wing,1.123,275.05012699900726,-377.09005155411893,56.00134763458706,density_assumption,1.5 mm shear web; grain through depth; fit between spar caps
+W_L_Leading_Edge,dense_balsa,wing,3.05,222.43051600847747,-415.7792368073339,56.678876493134645,density_assumption,Carve/sand a 4 mm chordwise leading-edge blank to templates
+W_L_Trailing_Edge,dense_balsa,wing,2.862,361.1579101869614,-387.43925120630854,50.2162813794511,density_assumption,Sand tapered trailing strip; retain 0.3 mm practical edge and fair covering
+W_L_Root_Sheet_top,balsa,wing,0.728,326.4451867556489,-24.997168634664884,33.64131211292429,density_assumption,1 mm root sheeting; supports wing attachment area
+W_L_Root_Sheet_bottom,balsa,wing,0.73,326.18427044214354,-24.959668921387927,24.655220426511896,density_assumption,1 mm root sheeting; supports wing attachment area
+W_Center_Joiner_front,plywood,wing,9.462,258.0838687816973,-1.384143799098277e-15,35.236264493386116,density_assumption,4 mm birch aircraft plywood; paired 300 mm dihedral braces; bond continuously to caps and webs
+W_Center_Joiner_rear,plywood,wing,9.287,282.08098191714737,0.0,35.03292927396857,density_assumption,4 mm birch aircraft plywood; paired 300 mm dihedral braces; bond continuously to caps and webs
+W_Bolt_Block_1,plywood,wing,3.036,245.36757125319303,4.321336412560987e-10,30.13406910358952,density_assumption,"Laminated plywood compression block, drilled 3.4 mm"
+W_Bolt_Block_2,plywood,wing,0.767,358.2921729184099,3.689253008028607e-12,25.459427893695484,density_assumption,"Laminated plywood compression block, drilled 3.4 mm"
+W_R_Rib_00,plywood,wing,1.52,295.1874456867548,1.5000000000000013,28.914452800722895,density_assumption,Rib station abs(Y)=1.5 mm; sheet 3 mm; grain chordwise
+W_R_Rib_01,plywood,wing,1.296,287.7351608464952,50.0,32.27125351422782,density_assumption,Rib station abs(Y)=50 mm; sheet 2 mm; grain chordwise
+W_R_Rib_02,plywood,wing,1.443,292.21304827065376,110.0,36.224162640201406,density_assumption,Rib station abs(Y)=110 mm; sheet 2 mm; grain chordwise
+W_R_Rib_03,balsa,wing,0.298,289.32003608635716,180.0,41.1811673350246,density_assumption,Rib station abs(Y)=180 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_04,balsa,wing,0.283,288.0934969438462,250.0,46.034889970131445,density_assumption,Rib station abs(Y)=250 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_05,balsa,wing,0.27,286.87034098370054,320.0,50.888436356299124,density_assumption,Rib station abs(Y)=320 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_06,balsa,wing,0.256,285.65166937205083,390.0,55.74170117245885,density_assumption,Rib station abs(Y)=390 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_07,balsa,wing,0.243,284.43779290773944,460.0,60.594678364464436,density_assumption,Rib station abs(Y)=460 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_08,balsa,wing,0.23,283.22926290382037,530.0,65.44733820713799,density_assumption,Rib station abs(Y)=530 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_09,balsa,wing,0.217,282.02665692298143,600.0,70.29965274296704,density_assumption,Rib station abs(Y)=600 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_10,balsa,wing,0.205,280.8308269501934,670.0,75.15156778160576,density_assumption,Rib station abs(Y)=670 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_11,balsa,wing,0.193,279.64264044644835,740.0,80.00303470234701,density_assumption,Rib station abs(Y)=740 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_12,balsa,wing,0.181,278.463098471679,810.0,84.85400294965108,density_assumption,Rib station abs(Y)=810 mm; sheet 1.5 mm; grain chordwise
+W_R_Rib_13,balsa,wing,0.175,277.8122428453409,849.25,87.57392496569608,density_assumption,Rib station abs(Y)=849.25 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_00,plywood,wing,1.52,295.1874456867548,-1.4999999999999987,28.914452800722895,density_assumption,Rib station abs(Y)=1.5 mm; sheet 3 mm; grain chordwise
+W_L_Rib_01,plywood,wing,1.296,287.7351608464952,-50.0,32.27125351422782,density_assumption,Rib station abs(Y)=50 mm; sheet 2 mm; grain chordwise
+W_L_Rib_02,plywood,wing,1.443,292.21304827065376,-110.0,36.224162640201406,density_assumption,Rib station abs(Y)=110 mm; sheet 2 mm; grain chordwise
+W_L_Rib_03,balsa,wing,0.298,289.32003608635716,-180.0,41.1811673350246,density_assumption,Rib station abs(Y)=180 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_04,balsa,wing,0.283,288.0934969438462,-250.0,46.034889970131445,density_assumption,Rib station abs(Y)=250 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_05,balsa,wing,0.27,286.87034098370054,-320.0,50.888436356299124,density_assumption,Rib station abs(Y)=320 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_06,balsa,wing,0.256,285.65166937205083,-390.0,55.74170117245885,density_assumption,Rib station abs(Y)=390 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_07,balsa,wing,0.243,284.43779290773944,-460.0,60.594678364464436,density_assumption,Rib station abs(Y)=460 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_08,balsa,wing,0.23,283.22926290382037,-530.0,65.44733820713799,density_assumption,Rib station abs(Y)=530 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_09,balsa,wing,0.217,282.02665692298143,-600.0,70.29965274296704,density_assumption,Rib station abs(Y)=600 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_10,balsa,wing,0.205,280.8308269501934,-670.0,75.15156778160576,density_assumption,Rib station abs(Y)=670 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_11,balsa,wing,0.193,279.64264044644835,-740.0,80.00303470234701,density_assumption,Rib station abs(Y)=740 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_12,balsa,wing,0.181,278.463098471679,-810.0,84.85400294965108,density_assumption,Rib station abs(Y)=810 mm; sheet 1.5 mm; grain chordwise
+W_L_Rib_13,balsa,wing,0.175,277.8122428453409,-849.25,87.57392496569608,density_assumption,Rib station abs(Y)=849.25 mm; sheet 1.5 mm; grain chordwise
+T_Horizontal_Stabilizer,balsa,tail,8.87,804.6667371812027,-2.0546219488424952e-15,17.99999999999997,density_assumption,"4 mm sheet, grain spanwise; open bays covered with film"
+T_Elevator_R,balsa,tail,3.55,854.5012601287082,107.45485708918065,18.034076159949546,density_assumption,4 mm sheet; lower leading edge bevel; tape hinge on top; neutral geometry
+H_Elevator_R_Tape_0,film,hardware,0.01,836.9492428636646,45.0,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+H_Elevator_R_Tape_1,film,hardware,0.01,836.9492428636646,110.0,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+H_Elevator_R_Tape_2,film,hardware,0.01,836.9492428636646,174.99999999999997,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+T_Elevator_L,balsa,tail,3.55,854.501260128708,-107.45485708918063,18.034076159949546,density_assumption,4 mm sheet; lower leading edge bevel; tape hinge on top; neutral geometry
+H_Elevator_L_Tape_0,film,hardware,0.01,836.9492428636646,-45.0,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+H_Elevator_L_Tape_1,film,hardware,0.01,836.9492428636646,-110.0,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+H_Elevator_L_Tape_2,film,hardware,0.01,836.9492428636646,-174.99999999999997,20.029999999999998,density_assumption,Flexible 0.06 mm hinge tape; wrap/seal per assembly guide
+T_Vertical_Fin,balsa,tail,3.822,820.6926885285633,-2.0522163569462918e-17,108.59480954374223,density_assumption,4 mm sheet; straight hinge at X=849.5; grain vertical
+T_Rudder,balsa,tail,5.375,874.2405293068604,-0.028551556502646586,115.52390976371805,density_assumption,4 mm sheet; one-face bevel; lower 5 mm clearance; +/-25 deg design travel
+H_Rudder_Tape_0,film,hardware,0.009,849.3974358974356,-2.029999999999999,45.051282051282044,density_assumption,
+H_Rudder_Tape_1,film,hardware,0.01,849.4999999999999,-2.03,110.0,density_assumption,
+H_Rudder_Tape_2,film,hardware,0.01,849.4999999999999,-2.03,179.99999999999997,density_assumption,
+F_Side_R,balsa,fuselage,9.23,383.5120213851344,19.66370781818324,-0.006477570379682807,density_assumption,2 mm sheet; scarf segments if sheet stock shorter than 900 mm; grain longitudinal
+F_Side_L,balsa,fuselage,9.23,383.51250195082287,-19.663700989080972,-0.006251361201394071,density_assumption,2 mm sheet; scarf segments if sheet stock shorter than 900 mm; grain longitudinal
+F_Bottom,balsa,fuselage,9.014,375.1662525144952,3.3647994657578043e-16,-18.13726186250147,density_assumption,2 mm balsa; top openings for battery hatch and removable wing
+F_Top,balsa,fuselage,4.364,530.9291442046048,-0.006487998547414503,14.164380048779512,density_assumption,2 mm balsa; top openings for battery hatch and removable wing
+F_Rounded_Nose,balsa,fuselage,10.928,19.892271334785857,-1.4149435391161401e-14,-4.0651135317820104e-15,density_assumption,Carved balsa nose; 15 mm nose fillet; enclosed ballast cavity
+F_Former_00,balsa,fuselage,0.21,41.999999999999986,-2.9583381814706914e-16,1.0831444142684454e-17,density_assumption,X=42; t=2; former and equipment support
+F_Former_01,balsa,fuselage,0.185,65.03979238754327,-1.9669003066023538e-16,-2.674740484429065,density_assumption,X=65; t=2; former and equipment support
+F_Former_02,plywood,fuselage,0.787,205.0,-1.3864248502636104e-15,2.0850529974667578e-16,density_assumption,X=205; t=2; former and equipment support
+F_Former_03,plywood,fuselage,0.785,214.99974654390593,1.3906187069515075e-15,0.008320210146851262,density_assumption,X=215; t=2; former and equipment support
+F_Former_04,plywood,fuselage,0.735,299.98993535332136,9.278797615281996e-17,-0.031039626558189617,density_assumption,X=300; t=2; former and equipment support
+F_Former_05,plywood,fuselage,0.703,389.99943388527277,1.3034234471583307e-13,-0.06841583994313478,density_assumption,X=390; t=2; former and equipment support
+F_Former_06,balsa,fuselage,0.096,499.99923800385784,-3.714364918309483e-16,-2.630378497283523e-14,density_assumption,X=500; t=1.5; former and equipment support
+F_Former_07,balsa,fuselage,0.064,649.9991849134328,-1.8284189690216707e-16,6.609819680231611e-16,density_assumption,X=650; t=1.5; former and equipment support
+F_Former_08,balsa,fuselage,0.042,749.9996874112253,1.8943771185936354e-16,2.078208108761118e-15,density_assumption,X=750; t=1.5; former and equipment support
+F_Former_09,plywood,fuselage,0.137,824.9996709595848,-6.340105010623606e-14,3.153977712128702e-14,density_assumption,X=825; t=1.5; former and equipment support
+F_Former_10,balsa,fuselage,0.031,897.9996490496676,7.063409354746553e-14,3.505270719834585e-15,density_assumption,X=898; t=1.5; former and equipment support
+F_Battery_Tray,plywood,fuselage,6.739,134.2029914529914,1.0501254819816296e-16,-15.0,density_assumption,2 mm ply; side edges bonded to inner walls at Y=+/-23; four strap slots; adjustable battery station
+F_Battery_Hatch,balsa,fuselage,2.06,134.96279114114483,5.415329185812498e-17,22.999999999999996,density_assumption,"Removable 2 mm lid, front tongue and rear nylon screw"
+F_Hatch_Tongue,plywood,fuselage,0.384,68.00000000000001,-3.33066907387547e-17,21.000000000000004,density_assumption,
+F_Hatch_Ledge_62,balsa,fuselage,0.088,62.0,-7.401486830834377e-17,19.0,density_assumption,Rear ledge has M2 pilot hole; front ledge supports hatch tongue
+F_Hatch_Ledge_198,plywood,fuselage,0.658,198.00000000000006,-3.8578893173632806e-16,20.000000000000004,density_assumption,Rear ledge has M2 pilot hole; front ledge supports hatch tongue
+H_Hatch_Screw,nylon,hardware,0.043,197.99999999999997,1.939430312981122e-18,22.875,density_assumption,M2 removable hatch screw with bearing head; matching tapped plywood pilot
+F_Wing_Seat_0,plywood,fuselage,6.276,244.81046039778437,1.8727264270904332e-17,18.791709702417627,density_assumption,Laminated ply saddle; upper face matches wing; M3 clearance hole
+H_Wing_Screw_0,nylon,hardware,0.278,245.00000000000003,-2.36041079423109e-17,26.417018328808982,density_assumption,M3 nylon screw; recessed head seated on machined flat; trim length after fitting
+H_Wing_Captive_Nut_0,steel,hardware,0.723,245.0,1.4079587168325647e-17,12.500000000000002,density_assumption,"M3 captive nut, internal only"
+F_Wing_Seat_1,plywood,fuselage,6.004,359.91309622710463,-4.2523469729735416e-16,18.581891752451632,density_assumption,Laminated ply saddle; upper face matches wing; M3 clearance hole
+H_Wing_Screw_1,nylon,hardware,0.202,359.9999999999999,-1.0622967812578277e-16,21.436204406627873,density_assumption,M3 nylon screw; recessed head seated on machined flat; trim length after fitting
+H_Wing_Captive_Nut_1,steel,hardware,0.723,359.9999999999999,1.3791033512660544e-17,12.5,density_assumption,"M3 captive nut, internal only"
+F_Tail_Saddle,plywood,fuselage,4.171,801.7003358843591,0.0005467626961545611,12.259446767374154,density_assumption,"Laminated ply saddle, shaped to pod; horizontal tail at z=16"
+H_Tail_Screw_0,nylon,hardware,0.079,789.9999999999999,6.0,14.386363636363628,density_assumption,M2 screw; captive threaded insert in saddle
+H_Tail_Screw_1,nylon,hardware,0.079,815.0,-6.0,14.386363636363628,density_assumption,M2 screw; captive threaded insert in saddle
+E_Battery_Envelope,equipment,equipment,32,102.5,-3.2983218351333047e-16,-7.0,specified_design_allowance,"Design envelope only: 45x30x12 mm, 32 g; receiver-compatible regulated supply required"
+E_Receiver_Envelope,equipment,equipment,6,170.0,1.1842378929335003e-16,-8.0,specified_design_allowance,"Design envelope 30x20x10, 6 g; elevator Y harness and rudder channels"
+F_Servo_Tray,plywood,fuselage,2.678,339.2183173706752,-5.381429199468377e-05,2.9997108532295154,density_assumption,2 mm plywood tray; three 24x13 mm servo cutouts
+F_Servo_Tray_Rail_R,dense_balsa,fuselage,0.095,336.0,21.5,1.0,density_assumption,Support rail bonded to inner fuselage side; tray bonds onto z=2 face
+F_Servo_Tray_Rail_L,dense_balsa,fuselage,0.095,336.0,-21.5,1.0,density_assumption,Support rail bonded to inner fuselage side; tray bonds onto z=2 face
+E_Servo_1,equipment,equipment,9,314.99999999999994,-10.999999999999998,-6.0,specified_design_allowance,Generic 23x12x20 mm 9 g servo envelope; specify >=0.8 kg.cm at supply voltage
+H_Servo_Arm_1,nylon,hardware,0.5,320.0,-11.0,5.0,specified_design_allowance,8 mm servo arm radius; neutral position
+H_Servo_1_Tab_301,nylon,hardware,0.075,301.24999999999994,-10.999999999999998,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_1_Screw_301,steel,hardware,0.079,300.9999999999999,-10.999999999999996,3.4999999999999996,density_assumption,
+H_Servo_1_Tab_329,nylon,hardware,0.075,328.75,-10.999999999999998,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_1_Screw_329,steel,hardware,0.079,328.99999999999994,-10.999999999999996,3.4999999999999996,density_assumption,
+E_Servo_2,equipment,equipment,9,314.99999999999994,10.999999999999998,-6.0,specified_design_allowance,Generic 23x12x20 mm 9 g servo envelope; specify >=0.8 kg.cm at supply voltage
+H_Servo_Arm_2,nylon,hardware,0.5,320.0,10.999999999999998,5.0,specified_design_allowance,8 mm servo arm radius; neutral position
+H_Servo_2_Tab_301,nylon,hardware,0.075,301.24999999999994,11.0,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_2_Screw_301,steel,hardware,0.079,300.9999999999999,10.999999999999996,3.4999999999999996,density_assumption,
+H_Servo_2_Tab_329,nylon,hardware,0.075,328.75,11.0,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_2_Screw_329,steel,hardware,0.079,328.99999999999994,10.999999999999996,3.4999999999999996,density_assumption,
+E_Servo_3,equipment,equipment,9,354.99999999999994,4.633974363652827e-17,-6.0,specified_design_allowance,Generic 23x12x20 mm 9 g servo envelope; specify >=0.8 kg.cm at supply voltage
+H_Servo_Arm_3,nylon,hardware,0.5,359.9999999999999,-7.884635663735224e-17,4.999999999999999,specified_design_allowance,8 mm servo arm radius; neutral position
+H_Servo_3_Tab_341,nylon,hardware,0.075,341.25,1.541976423090495e-17,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_3_Screw_341,steel,hardware,0.079,341.0,-1.3715495498012588e-18,3.5,density_assumption,
+H_Servo_3_Tab_369,nylon,hardware,0.075,368.75,1.541976423090495e-17,4.6,density_assumption,Generic integral mounting lug touches servo body; drill mounting screw pilot on assembly
+H_Servo_3_Screw_369,steel,hardware,0.079,369.0,-1.3715495498012588e-18,3.5,density_assumption,
+H_Elevator_Horn_R,plywood,hardware,0.128,844.454534262823,36.0,11.04233119326715,density_assumption,2 mm ply horn; bond and pin to elevator; control hole ~13 mm below hinge
+H_Elevator_Horn_L,plywood,hardware,0.128,844.454534262823,-36.0,11.04233119326715,density_assumption,2 mm ply horn; bond and pin to elevator; control hole ~13 mm below hinge
+H_Rudder_Horn,plywood,hardware,0.13,857.0052037521186,-7.857329232626154,42.99999999999999,density_assumption,"2 mm ply horn, 12 mm control lever"
+H_Pushrod_1,steel,hardware,2.051,579.7258211914346,-27.427035672620086,5.991415961484716,density_assumption,0.8 mm steel inner wire; supported Bowden routing; adjustable clevises at ends
+H_Bowden_Tube_1,nylon,hardware,0.955,576.7351290031958,-27.330000000000002,5.98,density_assumption,1.8 mm OD / 1.0 mm ID guide tube; bond to formers; cut exit apertures to route
+H_Control_Clevis_1,nylon,hardware,0.084,842.0693444060236,-36.00000000000001,7.000000000000001,density_assumption,Clevis envelope with 2.2 mm horn slot; 1.1 mm pin; retain pin and threaded adjustment
+H_Control_Pin_1,steel,hardware,0.039,843.9492428636648,-36.0,6.999999999999996,density_assumption,
+H_Pushrod_2,steel,hardware,2.051,579.7258211914346,27.42703567262009,5.991415961484716,density_assumption,0.8 mm steel inner wire; supported Bowden routing; adjustable clevises at ends
+H_Bowden_Tube_2,nylon,hardware,0.955,576.7351290031957,27.329999999999995,5.9799999999999995,density_assumption,1.8 mm OD / 1.0 mm ID guide tube; bond to formers; cut exit apertures to route
+H_Control_Clevis_2,nylon,hardware,0.084,842.0693444060236,36.0,7.000000000000001,density_assumption,Clevis envelope with 2.2 mm horn slot; 1.1 mm pin; retain pin and threaded adjustment
+H_Control_Pin_2,steel,hardware,0.039,843.9492428636648,35.99999999999999,6.999999999999996,density_assumption,
+H_Pushrod_3,steel,hardware,1.949,606.0083684830095,-1.909702657925856,23.82843505005913,density_assumption,0.8 mm steel inner wire; supported Bowden routing; adjustable clevises at ends
+H_Bowden_Tube_3,nylon,hardware,0.907,603.2849999999996,-1.7999999999999932,23.61999999999999,density_assumption,1.8 mm OD / 1.0 mm ID guide tube; bond to formers; cut exit apertures to route
+H_Control_Clevis_3,nylon,hardware,0.084,854.6201015423592,-12.0,43.00000000000002,density_assumption,Clevis envelope with 2.2 mm horn slot; 1.1 mm pin; retain pin and threaded adjustment
+H_Control_Pin_3,steel,hardware,0.039,856.4999999999999,-12.0,42.99999999999999,density_assumption,
+H_Enclosed_Ballast,steel,hardware,87.033,29.999999999999996,2.0540863026885548e-16,-1.776507072595507e-16,specified_design_allowance,Equivalent brass ballast mass; fully enclosed and bonded in nose; do not infer alloy from display material
+Covering_film,film,allowance,17.267,340,0,35,allowance,"25 g/m2, 10% overlap; distributed-CG approximation"
+Glue_finish_wiring,adhesive,allowance,22,330,0,5,allowance,"Weigh glue, finish, wire harness and retainers; allowance not CAD volume"

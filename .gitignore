@@ -1,0 +1,28 @@
+# Python environments and dependencies
+.venv/
+venv/
+.cad_deps/
+.pdf_deps/
+__pycache__/
+*.py[cod]
+
+# Temporary files
+tmp/
+temp/
+*.log
+*.tmp
+~$*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+# Locally regenerated CAD and intermediate outputs
+output/

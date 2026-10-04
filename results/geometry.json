@@ -1,0 +1,183 @@
+{
+  "span": 1700,
+  "root_chord": 170,
+  "tip_chord": 130,
+  "area_mm2": 255000,
+  "MAC": 150.88888888888889,
+  "wing_ac_x": 257.6992428636648,
+  "tail_ac_x": 797.6992428636647,
+  "tail_arm": 540,
+  "tail_area_mm2": 39000,
+  "tail_hinge_x": 836.9492428636647,
+  "rudder_hinge_x": 849.5,
+  "ribs": [
+    {
+      "name": "W_R_Rib_00",
+      "y": 1.5,
+      "chord": 169.9294117647059,
+      "thickness": 3
+    },
+    {
+      "name": "W_R_Rib_01",
+      "y": 50,
+      "chord": 167.64705882352942,
+      "thickness": 2
+    },
+    {
+      "name": "W_R_Rib_02",
+      "y": 110,
+      "chord": 164.8235294117647,
+      "thickness": 2
+    },
+    {
+      "name": "W_R_Rib_03",
+      "y": 180,
+      "chord": 161.52941176470588,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_04",
+      "y": 250,
+      "chord": 158.23529411764707,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_05",
+      "y": 320,
+      "chord": 154.94117647058823,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_06",
+      "y": 390,
+      "chord": 151.64705882352942,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_07",
+      "y": 460,
+      "chord": 148.35294117647058,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_08",
+      "y": 530,
+      "chord": 145.05882352941177,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_09",
+      "y": 600,
+      "chord": 141.76470588235293,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_10",
+      "y": 670,
+      "chord": 138.47058823529412,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_11",
+      "y": 740,
+      "chord": 135.1764705882353,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_12",
+      "y": 810,
+      "chord": 131.88235294117646,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_R_Rib_13",
+      "y": 849.25,
+      "chord": 130.03529411764706,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_00",
+      "y": -1.5,
+      "chord": 169.9294117647059,
+      "thickness": 3
+    },
+    {
+      "name": "W_L_Rib_01",
+      "y": -50,
+      "chord": 167.64705882352942,
+      "thickness": 2
+    },
+    {
+      "name": "W_L_Rib_02",
+      "y": -110,
+      "chord": 164.8235294117647,
+      "thickness": 2
+    },
+    {
+      "name": "W_L_Rib_03",
+      "y": -180,
+      "chord": 161.52941176470588,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_04",
+      "y": -250,
+      "chord": 158.23529411764707,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_05",
+      "y": -320,
+      "chord": 154.94117647058823,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_06",
+      "y": -390,
+      "chord": 151.64705882352942,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_07",
+      "y": -460,
+      "chord": 148.35294117647058,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_08",
+      "y": -530,
+      "chord": 145.05882352941177,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_09",
+      "y": -600,
+      "chord": 141.76470588235293,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_10",
+      "y": -670,
+      "chord": 138.47058823529412,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_11",
+      "y": -740,
+      "chord": 135.1764705882353,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_12",
+      "y": -810,
+      "chord": 131.88235294117646,
+      "thickness": 1.5
+    },
+    {
+      "name": "W_L_Rib_13",
+      "y": -849.25,
+      "chord": 130.03529411764706,
+      "thickness": 1.5
+    }
+  ]
+}

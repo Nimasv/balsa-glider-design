@@ -1,0 +1,47 @@
+{
+  "mass_g": 434.6153837754498,
+  "cg_mm": [
+    265.23909143639776,
+    -0.018618333487031458,
+    19.65564528814862
+  ],
+  "target_cg_x_mm": 265.23909143639776,
+  "ballast_g": 87.03263932155588,
+  "allowances": [
+    {
+      "name": "Covering_film",
+      "mass_g": 17.26725,
+      "cg_mm": [
+        340,
+        0,
+        35
+      ],
+      "material": "film",
+      "group": "allowance",
+      "note": "25 g/m2, 10% overlap; distributed-CG approximation"
+    },
+    {
+      "name": "Glue_finish_wiring",
+      "mass_g": 22,
+      "cg_mm": [
+        330,
+        0,
+        5
+      ],
+      "material": "adhesive",
+      "group": "allowance",
+      "note": "Weigh glue, finish, wire harness and retainers; allowance not CAD volume"
+    }
+  ],
+  "wing_loading_g_dm2": 17.04374054021372,
+  "material_density_assumptions": {
+    "balsa": 160,
+    "dense_balsa": 220,
+    "plywood": 600,
+    "nylon": 1150,
+    "steel": 7850,
+    "film": 1000,
+    "equipment": 1000,
+    "adhesive": 1100
+  }
+}

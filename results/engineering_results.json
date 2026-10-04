@@ -1,0 +1,341 @@
+{
+  "model": "Nonlinear lifting line with UIUC SD7037(D) section data + analytical tail; elastic beam screening",
+  "mass": {
+    "mass_g": 434.6153837754498,
+    "cg_mm": [
+      265.23909143639776,
+      -0.018618333487031458,
+      19.65564528814862
+    ],
+    "target_cg_x_mm": 265.23909143639776,
+    "ballast_g": 87.03263932155588,
+    "allowances": [
+      {
+        "name": "Covering_film",
+        "mass_g": 17.26725,
+        "cg_mm": [
+          340,
+          0,
+          35
+        ],
+        "material": "film",
+        "group": "allowance",
+        "note": "25 g/m2, 10% overlap; distributed-CG approximation"
+      },
+      {
+        "name": "Glue_finish_wiring",
+        "mass_g": 22,
+        "cg_mm": [
+          330,
+          0,
+          5
+        ],
+        "material": "adhesive",
+        "group": "allowance",
+        "note": "Weigh glue, finish, wire harness and retainers; allowance not CAD volume"
+      }
+    ],
+    "wing_loading_g_dm2": 17.04374054021372,
+    "material_density_assumptions": {
+      "balsa": 160,
+      "dense_balsa": 220,
+      "plywood": 600,
+      "nylon": 1150,
+      "steel": 7850,
+      "film": 1000,
+      "equipment": 1000,
+      "adhesive": 1100
+    }
+  },
+  "geometry": {
+    "span": 1700,
+    "root_chord": 170,
+    "tip_chord": 130,
+    "area_mm2": 255000,
+    "MAC": 150.88888888888889,
+    "wing_ac_x": 257.6992428636648,
+    "tail_ac_x": 797.6992428636647,
+    "tail_arm": 540,
+    "tail_area_mm2": 39000,
+    "tail_hinge_x": 836.9492428636647,
+    "rudder_hinge_x": 849.5,
+    "ribs": [
+      {
+        "name": "W_R_Rib_00",
+        "y": 1.5,
+        "chord": 169.9294117647059,
+        "thickness": 3
+      },
+      {
+        "name": "W_R_Rib_01",
+        "y": 50,
+        "chord": 167.64705882352942,
+        "thickness": 2
+      },
+      {
+        "name": "W_R_Rib_02",
+        "y": 110,
+        "chord": 164.8235294117647,
+        "thickness": 2
+      },
+      {
+        "name": "W_R_Rib_03",
+        "y": 180,
+        "chord": 161.52941176470588,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_04",
+        "y": 250,
+        "chord": 158.23529411764707,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_05",
+        "y": 320,
+        "chord": 154.94117647058823,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_06",
+        "y": 390,
+        "chord": 151.64705882352942,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_07",
+        "y": 460,
+        "chord": 148.35294117647058,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_08",
+        "y": 530,
+        "chord": 145.05882352941177,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_09",
+        "y": 600,
+        "chord": 141.76470588235293,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_10",
+        "y": 670,
+        "chord": 138.47058823529412,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_11",
+        "y": 740,
+        "chord": 135.1764705882353,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_12",
+        "y": 810,
+        "chord": 131.88235294117646,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_R_Rib_13",
+        "y": 849.25,
+        "chord": 130.03529411764706,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_00",
+        "y": -1.5,
+        "chord": 169.9294117647059,
+        "thickness": 3
+      },
+      {
+        "name": "W_L_Rib_01",
+        "y": -50,
+        "chord": 167.64705882352942,
+        "thickness": 2
+      },
+      {
+        "name": "W_L_Rib_02",
+        "y": -110,
+        "chord": 164.8235294117647,
+        "thickness": 2
+      },
+      {
+        "name": "W_L_Rib_03",
+        "y": -180,
+        "chord": 161.52941176470588,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_04",
+        "y": -250,
+        "chord": 158.23529411764707,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_05",
+        "y": -320,
+        "chord": 154.94117647058823,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_06",
+        "y": -390,
+        "chord": 151.64705882352942,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_07",
+        "y": -460,
+        "chord": 148.35294117647058,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_08",
+        "y": -530,
+        "chord": 145.05882352941177,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_09",
+        "y": -600,
+        "chord": 141.76470588235293,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_10",
+        "y": -670,
+        "chord": 138.47058823529412,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_11",
+        "y": -740,
+        "chord": 135.1764705882353,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_12",
+        "y": -810,
+        "chord": 131.88235294117646,
+        "thickness": 1.5
+      },
+      {
+        "name": "W_L_Rib_13",
+        "y": -849.25,
+        "chord": 130.03529411764706,
+        "thickness": 1.5
+      }
+    ]
+  },
+  "cruise": {
+    "V_m_s": 7.5,
+    "CL_total": 0.48512870216761717,
+    "CL_wing": 0.4999165140470943,
+    "Cm_wing": -0.07717939342961457,
+    "CL_tail": -0.10743282134662861,
+    "CD_total": 0.039315979502837134,
+    "CD_profile_wing": 0.0231933903772654,
+    "CD_induced_wing": 0.007319097576167355,
+    "alpha_body_deg": 1.3656525567053526,
+    "elevator_trim_deg": -2.4075894934834623,
+    "L_D": 12.339224618138005,
+    "sink_m_s": 0.605831516757983,
+    "Re_min": 66762.15762996087,
+    "Re_max": 87304.35997764114,
+    "max_section_cl": 0.5394614599038926,
+    "section_data_Re_clamped": false,
+    "residual": 1.1102230246251565e-16,
+    "lift_N": 4.2621209533015145,
+    "tail_lift_N": -0.12991901444582804,
+    "CL_alpha_per_rad": 5.5501066529431755,
+    "Cm_alpha_per_rad": -1.0877445682663174,
+    "static_margin": 0.19598624608222537,
+    "neutral_point_x_mm": 294.8112383452491,
+    "downwash_gradient": 0.29021088292378744
+  },
+  "best_glide_in_scanned_range": {
+    "V_m_s": 6.75,
+    "CL_total": 0.5989243236637247,
+    "CL_wing": 0.6114534224503982,
+    "Cm_wing": -0.07478564058849506,
+    "CL_tail": -0.09102336725361093,
+    "CD_total": 0.04462226460620198,
+    "CD_profile_wing": 0.02477901027573829,
+    "CD_induced_wing": 0.011083236869079938,
+    "alpha_body_deg": 2.790323145560957,
+    "elevator_trim_deg": -3.9099130651297753,
+    "L_D": 13.422096098199399,
+    "sink_m_s": 0.5015120941886967,
+    "Re_min": 60085.94186696479,
+    "Re_max": 78573.92397987704,
+    "max_section_cl": 0.6533849059347572,
+    "section_data_Re_clamped": false,
+    "residual": 3.3306690738754696e-16,
+    "lift_N": 4.262120953301514,
+    "tail_lift_N": -0.08916073760037882,
+    "CL_alpha_per_rad": 4.731255569218435,
+    "Cm_alpha_per_rad": -0.9138972165849796,
+    "static_margin": 0.1931616678098723,
+    "neutral_point_x_mm": 294.385040868154,
+    "downwash_gradient": 0.24277375861883002
+  },
+  "data_reynolds": [
+    59200.0,
+    99100.0,
+    197400.0,
+    296000.0
+  ],
+  "structural_cases": {
+    "1": {
+      "root_moment_Nm": 0.7920698654725317,
+      "root_shear_N": 2.196019983873671,
+      "max_cap_stress_MPa": 0.859540293651423,
+      "tip_deflection_mm": 6.56180194984399
+    },
+    "4": {
+      "root_moment_Nm": 3.1682794618901267,
+      "root_shear_N": 8.784079935494685,
+      "max_cap_stress_MPa": 3.438161174605692,
+      "tip_deflection_mm": 26.24720779937596
+    },
+    "6": {
+      "root_moment_Nm": 4.75241919283519,
+      "root_shear_N": 13.176119903242027,
+      "max_cap_stress_MPa": 5.157241761908539,
+      "tip_deflection_mm": 39.37081169906396
+    }
+  },
+  "wing_load_factor_including_tail": 1.0304822448422517,
+  "joiner_stress_4g_MPa": 19.63809583816194,
+  "joiner_stress_6g_MPa": 29.45714375724291,
+  "estimated_twist_at_10_5m_s_deg": 2.2502159541006135,
+  "design_allowables_assumed": {
+    "cap_service_MPa": 7.5,
+    "cap_ultimate_MPa": 12,
+    "plywood_service_MPa": 20,
+    "plywood_ultimate_MPa": 30,
+    "cap_E_MPa": 3400,
+    "skin_E_MPa": 2200
+  },
+  "criteria": {
+    "mass_in_range": true,
+    "wing_loading_in_range": true,
+    "cg_in_range": true,
+    "positive_static_margin": true,
+    "cap_service": true,
+    "cap_ultimate": true,
+    "joiner_service": true,
+    "joiner_ultimate": true
+  },
+  "limitations": [
+    "No flight calibration; no CFD or full dynamic mode analysis.",
+    "Balsa/ply allowables and equipment masses require sample verification.",
+    "Tail effectiveness, downwash, body moment/drag and roughness remain assumptions.",
+    "L=W approximation neglects small cos(gamma) correction.",
+    "Section data clamped outside Reynolds bounds; such points excluded from selected best glide.",
+    "No guarantee of travel distance without launch height/speed and course definition."
+  ]
+}
